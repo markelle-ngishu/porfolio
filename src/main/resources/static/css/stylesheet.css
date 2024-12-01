@@ -5,13 +5,29 @@
 }
 body{
     background-color: #75aae9;
+    font-family: "Gill Sans MT",sans-serif;
+
+}
+.background{
+    background-image: url("sky/day.PNG");
+    height: 100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .content{
-    background-image: url("day-sky.PNG");
+    background-color: white;
+    background-image: linear-gradient(to right, #8ec5de 1px, transparent 1px),
+    linear-gradient(to bottom, #8ec5de 1px, transparent 1px);
+    background-size: 40px 40px;
     height: 100%;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 15px 40px rgba(5, 5, 11, 0.16);
 
-    background-position: center
 }
 .ticker{
     background-color: black;
+    color: white;
+    padding: 12px;
 }
