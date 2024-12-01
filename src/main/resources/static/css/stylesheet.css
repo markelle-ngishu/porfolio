@@ -5,7 +5,9 @@
 }
 body{
     background-color: #75aae9;
-    font-family: "Gill Sans MT",sans-serif;
+    font-family: "Montserrat",sans-serif;
+    font-size: 1.3em;
+
 
 }
 .background{
@@ -30,4 +32,7 @@ body{
     background-color: black;
     color: white;
     padding: 12px;
+}
+.main{
+    padding: 40px;
 }
