@@ -36,3 +36,16 @@ body{
 .main{
     padding: 40px;
 }
+.left{
+
+}
+.photo{
+    background-image: url("self.PNG");
+    background-size: contain;
+    width: 290px;
+    margin-top: -10px;
+    aspect-ratio: 1/1;
+}
+.right{
+
+}
