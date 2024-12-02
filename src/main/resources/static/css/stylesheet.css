@@ -19,10 +19,10 @@ body{
 }
 .content{
     background-color: white;
-    background-image: linear-gradient(to right, #8ec5de 1px, transparent 1px),
-    linear-gradient(to bottom, #8ec5de 1px, transparent 1px);
+    background-image: linear-gradient(to right, #a2d3ea 1px, transparent 1px),
+    linear-gradient(to bottom, #a2d3ea 1px, transparent 1px);
     background-size: 40px 40px;
-    height: 100%;
+    min-height: 100%;
     max-width: 1000px;
     margin: auto;
     box-shadow: 15px 40px rgba(5, 5, 11, 0.16);
@@ -35,8 +35,14 @@ body{
 }
 .main{
     padding: 40px;
+    display: flex;
+    gap: 28px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-weight: 600;
 }
 .left{
+
 
 }
 .photo{
@@ -48,4 +54,10 @@ body{
 }
 .right{
 
+}
+.about{
+    border: 6px black solid;
+    padding: 12px 10px;
+    margin-top: 66px;
+    margin-left: 43px;
 }
