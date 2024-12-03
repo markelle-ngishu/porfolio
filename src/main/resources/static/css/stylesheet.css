@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    cursor: url(pixel-cursor.png) 0 0, auto;
+}
 body{
     background-color: #75aae9;
     font-family: "Montserrat",sans-serif;
@@ -73,4 +76,7 @@ body{
     font-size: 1.4em;
     text-decoration: none;
 
+}
+.links a:hover{
+    color: #559e06;
 }
