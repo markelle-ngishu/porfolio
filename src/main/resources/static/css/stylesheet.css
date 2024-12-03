@@ -61,3 +61,16 @@ body{
     margin-top: 66px;
     margin-left: 43px;
 }
+.links{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: -4px;
+}
+.links a{
+    color: #024288;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-decoration: none;
+
+}
