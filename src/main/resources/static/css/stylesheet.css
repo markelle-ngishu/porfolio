@@ -45,7 +45,7 @@ body{
     font-weight: 600;
 }
 .left{
-
+    width: 100%;
 
 }
 .photo{
@@ -55,14 +55,27 @@ body{
     margin-top: -10px;
     aspect-ratio: 1/1;
 }
-.right{
+.self-assessment{
+    margin-top: 3px;
+}
+.self-assessment p{
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+    align-content: baseline;
+}
+.self-assessment p span{
+    font-size: 1.2em;
 
+}
+.right{
+    margin-left: 43px;
 }
 .about{
     border: 6px black solid;
     padding: 12px 10px;
     margin-top: 66px;
-    margin-left: 43px;
+
 }
 .links{
     display: flex;
@@ -79,4 +92,8 @@ body{
 }
 .links a:hover{
     color: #559e06;
+}
+.recent-projects{
+    margin-top: 22px;
+    display: flex;
 }
