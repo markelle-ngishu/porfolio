@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+a, button{
+    cursor: url(pixel-cursor-pointer.png) 16 0, pointer;
+}
 html{
     cursor: url(pixel-cursor.png) 0 0, auto;
 }
@@ -53,6 +56,7 @@ body{
     background-size: contain;
     width: 290px;
     margin-top: -10px;
+    margin-bottom: 42px;
     aspect-ratio: 1/1;
 }
 .self-assessment{
@@ -96,4 +100,9 @@ body{
 .recent-projects{
     margin-top: 22px;
     display: flex;
+    align-content: baseline;
+}
+.recent-projects .legend{
+    font-size: 1.3em;
+    margin-left: 15px;
 }
