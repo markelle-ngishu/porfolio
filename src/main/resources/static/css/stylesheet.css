@@ -99,10 +99,29 @@ body{
 }
 .recent-projects{
     margin-top: 22px;
+
+}
+.recent-projects .introduction{
     display: flex;
     align-content: baseline;
+    margin-bottom: 4px;
 }
 .recent-projects .legend{
     font-size: 1.3em;
     margin-left: 15px;
+}
+.project-element{
+    border: 2px black solid;
+    padding: 12px 10px;
+    margin-top: 31px;
+    box-shadow: 8px 8px rgba(0,0,0,20%);
+}
+.project-element h5{
+    font-weight: bold;
+    font-size: 1.3rem;
+
+}
+.project-element p{
+    font-size: 1rem;
+
 }
