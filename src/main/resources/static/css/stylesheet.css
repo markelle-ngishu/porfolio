@@ -5,6 +5,12 @@
 }
 a, button{
     cursor: url(pixel-cursor-pointer.png) 16 0, pointer;
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
 }
 html{
     cursor: url(pixel-cursor.png) 0 0, auto;
@@ -29,7 +35,7 @@ body{
     linear-gradient(to bottom, #a2d3ea 1px, transparent 1px);
     background-size: 40px 40px;
     min-height: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
     box-shadow: 15px 40px rgba(5, 5, 11, 0.16);
 
@@ -90,7 +96,7 @@ body{
 .links a{
     color: #024288;
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-decoration: none;
 
 }
@@ -113,14 +119,23 @@ body{
 .project-element{
     border: 2px black solid;
     padding: 12px 10px;
-    margin-top: 31px;
-    box-shadow: 8px 8px rgba(0,0,0,20%);
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 5px 5px rgba(0,0,0,20%);
+}
+.project-element:hover{
+    background-color: #ffc287;
 }
 .project-element h5{
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+    padding-right: 5px;
     font-weight: bold;
     font-size: 1.3rem;
 
 }
+
 .project-element p{
     font-size: 1rem;
 
