@@ -4,7 +4,7 @@
     padding: 0;
 }
 a, button{
-    cursor: url(pixel-cursor-pointer.png) 16 0, pointer;
+    cursor: url(pixel-cursor-pointer.png) 0 0, pointer;
     text-decoration: none;
     color: black;
 }
@@ -42,8 +42,21 @@ body{
 }
 .ticker{
     background-color: black;
+    overflow: hidden;
     color: white;
-    padding: 12px;
+    white-space: nowrap;
+    padding: 10px 20px;
+}
+.wrapper{
+    margin: auto;
+    width: 99.8%;
+    overflow:hidden;
+}
+.ticker p{
+    animation: ticker 15s linear infinite;
+    display: inline-block;
+    padding-left: 100%;
+    margin-left: 20px;
 }
 .main{
     padding: 40px;
@@ -82,9 +95,11 @@ body{
     margin-left: 43px;
 }
 .about{
-    border: 6px black solid;
     padding: 12px 10px;
     margin-top: 66px;
+    background-color: rgba(255,255,255,70%);
+    box-shadow: -3px -5px 0 #e8a514 inset ;
+
 
 }
 .links{
@@ -94,7 +109,7 @@ body{
     margin-top: -4px;
 }
 .links a{
-    color: #024288;
+    color: #dc7208;
     font-weight: bold;
     font-size: 1.2em;
     text-decoration: none;
@@ -124,7 +139,7 @@ body{
     box-shadow: 5px 5px rgba(0,0,0,20%);
 }
 .project-element:hover{
-    background-color: #ffc287;
+    background-color: #fdca5b;
 }
 .project-element h5{
     display: flex;
@@ -139,4 +154,12 @@ body{
 .project-element p{
     font-size: 1rem;
 
+}
+@keyframes ticker {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
